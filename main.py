@@ -2,9 +2,9 @@ import sys
 from vkapi import VkApiUser
 from yaapi import YaDiskUser
 
-VK_TOKEN = 'vk1.a.s6NcFq0gank-k2XT2w5DBVwrUlZe1JkppjGAg_PvMmntJBv2xhykgudznA3q6dUpMfRSOdlnowDO6iPp31qp4R8I4Rxxpxqel8WKb--0QRrCPP0WBR6wlPRmntEWSHSwXTMCKZy3LagJNNaqFK01QMMD_jXvS5rfZxuhgfZf5UWYM8ChOnbSs4DtfA6FVgL9RcHTqZa2lBlfkk7_LjWQ6w'
+VK_TOKEN = ''
 VK_API_VERSION = '5.131'
-YANDEX_DISK_TOKEN = 'y0_AgAAAABWnbrJAADLWwAAAADRCiGlTDR6JPl-S0qL6uTSZ0l_u0Lm39g'
+YANDEX_DISK_TOKEN = ''
 
 vk_user_id = input('Введите ID пользователя Вконтакте: ')
 if not vk_user_id.isdecimal():
